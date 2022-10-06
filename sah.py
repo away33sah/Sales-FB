@@ -193,7 +193,7 @@ def menu(my_name,my_id):
 	print('>> 5. Hasil Crack  ')
 	print('>> 0. Keluar       ')
 	_____alvino__adijaya_____ = input('\n>> Pilih : ')
-	if _____alvino__adijaya_____ in ['1']:
+	elif _____alvino__adijaya_____ in ['1']:
 		dump_massal()
 	elif _____alvino__adijaya_____ in ['2']:
 		dump_follower()
