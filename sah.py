@@ -193,17 +193,17 @@ def menu(my_name,my_id):
 	print('>> 5. Hasil Crack  ')
 	print('>> 0. Keluar       ')
 	_____alvino__adijaya_____ = input('\n>> Pilih : ')
-	elif _____alvino__adijaya_____ in ['1']:
+	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
-	elif _____alvino__adijaya_____ in ['2']:
+	if _____alvino__adijaya_____ in ['2']:
 		dump_follower()
-	elif _____alvino__adijaya_____ in ['3']:
+	if _____alvino__adijaya_____ in ['3']:
 		error()
-	elif _____alvino__adijaya_____ in ['4']:
+	if _____alvino__adijaya_____ in ['4']:
 		crack_file()
-	elif _____alvino__adijaya_____ in ['5']:
+	if _____alvino__adijaya_____ in ['5']:
 		result()
-	elif _____alvino__adijaya_____ in ['0']:
+	if _____alvino__adijaya_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('>> Sukses Logout+Hapus Kukis ')
@@ -570,11 +570,11 @@ def setting():
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
-	elif hc in ['2','02']:
+	if hc in ['2','02']:
 		method.append('free')
-	elif hc in ['3','03']:
+	if hc in ['3','03']:
 		method.append('touch')
-	elif hc in ['4','04']:
+	if hc in ['4','04']:
 		method.append('x')
 	else:
 		method.append('x')
