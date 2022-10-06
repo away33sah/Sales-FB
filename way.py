@@ -79,14 +79,14 @@ try:
 except Exception as e:
 	print('[[\x1b[1;92mâ€¢\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
 prox=open('.prox.txt','r').read().splitlines()
-ugen=['Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaC5-06/23.6.015; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.33 Mobile Safari/533.4','Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/012.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.0 Mobile Safari/533.4 3gpp-gba; KAKAOTALK 2109200','Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/11.0.026; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413','Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaC6-00/20.0.042; Profile/MIDP-2.1 Configuration/CLDC-1.1; zh-hk) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.2.6.9 3gpp-gba','Mozilla/5.0 (SymbianOS/9.4; Series60/5.3; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebkit/525 (KHTML, like Gecko) NokiaBrowser/8.3.1.4 Mobile Safari/525']
+ugen=['Mozilla/5.0 (Linux; Android 5.0.2; Elephone P7000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.45 Mobile Safari/537.36']
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='Nokia'
 	e=random.randrange(100, 9999)
-	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+	f='Mozilla/5.0 (Linux; Android 5.0.2; Elephone P7000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.45 Mobile Safari/537.36'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
@@ -110,7 +110,7 @@ for xd in range(10000):
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile Safari/537.36 Instagram 198.0.0.32.120 Android (30/11; 480dpi; 1080x2110; samsung; SM-A405FM; a40; exynos7904; ru_RU; 307053317)'
+	l='Mozilla/5.0 (Linux; Android 5.0.2; Elephone P7000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.45 Mobile Safari/537.36'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
@@ -125,7 +125,7 @@ for x in range(10):
 	i='; U; Bada/1.2; en-us) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/'
 	j=random.randrange(1, 9)
 	k=random.randrange(1, 9)
-	l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
+	l='Mozilla/5.0 (Linux; Android 5.0.2; Elephone P7000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.45 Mobile Safari/537.36'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
 def uaku():
 	try:
