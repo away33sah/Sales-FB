@@ -555,7 +555,7 @@ def setting():
 		for xmud in range(bcm):
 			id2.append(muda[bcmi])
 			bcmi -=1
-	elif hu in ['3','03']:
+	if hu in ['3','03']:
 		for bacot in id:
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
@@ -629,7 +629,7 @@ def passwrd():
 				for xpwd in pwnya:
 					pwv.append(xpwd)
 			else:pass
-			elif 'mobile' in method:
+			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
 				pool.submit(crackfree,idf,pwv)
