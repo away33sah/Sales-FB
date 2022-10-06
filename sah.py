@@ -631,11 +631,11 @@ def passwrd():
 			else:pass
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
-			elif 'free' in method:
+			if 'free' in method:
 				pool.submit(crackfree,idf,pwv)
-			elif 'touch' in method:
+			if 'touch' in method:
 				pool.submit(cracktouch,idf,pwv)
-			elif 'mbasic' in method:
+			if 'mbasic' in method:
 				pool.submit(crackmbasic,idf,pwv)
 			else:
 				pool.submit(crackmbasic,idf,pwv)
