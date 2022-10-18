@@ -28,22 +28,22 @@ except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
-	a='Mozilla/5.0 (Linux; Android 9; ONEPLUS A6003; Windows 10 Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/63.0.3239.111 Mobile Safari/537.36'
+	a='Mozilla/5.0 (Linux; arm_64; Android 11; RMX2156) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 YaBrowser/22.9.0.225.00 SA/3 Mobile Safari/537.36'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='Elephone'
 	e=random.randrange(100, 9999)
-	f='Mozilla/5.0 (Linux; Android 9; ONEPLUS A6003; Windows 10 Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/63.0.3239.111 Mobile Safari/537.36'
+	f='Mozilla/5.0 (Linux; arm_64; Android 11; RMX2156) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 YaBrowser/22.9.0.225.00 SA/3 Mobile Safari/537.36'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Mozilla/5.0 (Linux; Android 9; ONEPLUS A6003; Windows 10 Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/63.0.3239.111 Mobile Safari/537.36'
+	k='Mozilla/5.0 (Linux; arm_64; Android 11; RMX2156) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 YaBrowser/22.9.0.225.00 SA/3 Mobile Safari/537.36'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 
 
-	aa='Mozilla/5.0 (Linux; Android 9; ONEPLUS A6003; Windows 10 Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/63.0.3239.111 Mobile Safari/537.36'
+	aa='Mozilla/5.0 (Linux; arm_64; Android 11; RMX2156) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 YaBrowser/22.9.0.225.00 SA/3 Mobile Safari/537.36'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c=' en-us; GT-'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
