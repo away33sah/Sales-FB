@@ -538,8 +538,8 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	print(f'{x}>> 1. Akun Old ')
-	print('>> 2. Akun New ')
+#	print(f'{x}>> 1. Akun Old ')
+#	print('>> 2. Akun New ')
 	print('>> 3. Random ')
 	print('')
 	hu = input('>> Pilih : ')
@@ -566,7 +566,7 @@ def setting():
 	print('>> 1. Mobile ')
 #	print('>> 2. Mbasic ')
 	print('>> 3. Touch  ')
-#	print('>> 4. Mtouch ')
+	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
