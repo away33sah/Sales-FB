@@ -188,10 +188,10 @@ def menu(my_name,my_id):
 	alvino_xy(f'>> Your Ip  : {ip}')
 	print('')
 	print('>> 1. Crack Publik ')
-	print('>> 2. Crack Follower ')
-	print('>> 3. Crack Grup   ')
-	print('>> 4. Crack File	')
-	print('>> 5. Hasil Crack  ')
+#	print('>> 2. Crack Follower ')
+#	print('>> 3. Crack Grup   ')
+#	print('>> 4. Crack File	')
+#	print('>> 5. Hasil Crack  ')
 	print('>> 0. Keluar       ')
 	_____alvino__adijaya_____ = input('\n>> Pilih : ')
 	if _____alvino__adijaya_____ in ['1']:
@@ -566,14 +566,14 @@ def setting():
 	print('>> 1. Mobile ')
 #	print('>> 2. Mbasic ')
 	print('>> 3. Touch  ')
-	print('>> 4. Mtouch ')
+#	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
 #	elif hc in ['2','02']:
 #		method.append('free')
-#	elif hc in ['3','03']:
+	if hc in ['3','03']:
 #		method.append('touch')
 	elif hc in ['4','04']:
 		method.append('x')
@@ -634,7 +634,7 @@ def passwrd():
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
 				pool.submit(crackfree,idf,pwv)
-			elif 'touch' in method:
+			if 'touch' in method:
 				pool.submit(cracktouch,idf,pwv)
 			elif 'mbasic' in method:
 				pool.submit(crackmbasic,idf,pwv)
