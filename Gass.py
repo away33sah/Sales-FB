@@ -635,7 +635,7 @@ def passwrd():
 			elif 'free' in method:
 				pool.submit(crackfree,idf,pwv)
 			if 'touch' in method:
-				pool.submit(cracktouch,idf,pwv)
+				pool.submit(crack,idf,pwv)
 			elif 'mbasic' in method:
 				pool.submit(crackmbasic,idf,pwv)
 			else:
