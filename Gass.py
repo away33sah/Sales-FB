@@ -573,7 +573,7 @@ def setting():
 		method.append('mobile')
 #	elif hc in ['2','02']:
 #		method.append('free')
-	if hc in ['3','03']:
+#	elif hc in ['3','03']:
 #		method.append('touch')
 	elif hc in ['4','04']:
 		method.append('x')
