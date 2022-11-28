@@ -1,30 +1,3 @@
-Skip to content
-Product
-Solutions
-Open Source
-Pricing
-Search
-Sign in
-Sign up
-MhndRenzz
-/
-Rmtf
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Rmtf/Rmtf4.py /
-@MhndRenzz
-MhndRenzz Follow gue dong anj
-Latest commit cb59712 8 days ago
- History
- 1 contributor
-1187 lines (1170 sloc)  61 KB
-
 #-----------------[ IMPORT-MODULE ]-------------------
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
@@ -569,7 +542,7 @@ def memek():
 	ask = input("\nPilih : ")
 	if ask in["1"]:
 		token_cookie()
-	
+
 def token_cookie():
 	print("cokiess bebas")
 	cookie = input("Masukan cookie : ")
@@ -832,7 +805,7 @@ def crack(idf,pwv):
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(session,coki)
 				break
-				
+
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
@@ -1212,18 +1185,3 @@ if __name__=='__main__':
 
 #>>>>> THANKS TO THIS HERE <<<<<<<#
 #>>>>> Yusep_XD <<<<<#
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Rmtf/Rmtf4.py at main · MhndRenzz/Rmtf · GitHub
