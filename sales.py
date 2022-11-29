@@ -149,10 +149,10 @@ def back():
 def banner():
 	clear()
 	sol()
-	ban=''' •Renz.m The Fower•
+	ban=''' ••
 ________           _____________
-___  __ \______ _____  /___  __/  •Developer•AFF
-__  /_/ /_  __ `__ \  __/_  /_    •Wangsap•AUSTRALI
+___  __ \______ _____  /___  __/  •AFF
+__  /_/ /_  __ `__ \  __/_  /_    •AUSTRALI
 _  _, _/_  / / / / / /_ _  __/    •GASSKEUN
 /_/ |_| /_/ /_/ /_/\__/ /_/       •Status•Dalam Tahap Perkembangan
                                 '''
