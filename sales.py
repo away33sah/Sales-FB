@@ -6,9 +6,9 @@ from math import prod as Builtins
 __obfuscator__ = 'NOBFUS'
 __authors__ = ('nasirxo')
 __github__ = 'https://github.com/nasirxo/flb2'
-__license__ = 'EPL-2.0'
+__license__ =
 
-__code__ = 'print("Hey How is That ?")'
+__code__ =
 
 
 _callfunction, _substract, _product, _while, Round, _add, Substract = exec, str, tuple, map, ord, globals, type
