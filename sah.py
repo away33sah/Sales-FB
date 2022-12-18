@@ -207,7 +207,7 @@ def public():
 def menu():
         try:
                 clear()
-        #       chk()
+               chk()
                 x = ("sex")
                 if x == ("sex"):
                         print(' [1] File cloning\n [2] Create ids file\n [3] Public cloning\n [4] Random number cloning\n [5] Random gmail crack\n [6] WhatsApp Group (join)\n [7] Download Vpn\n [8] How To Use Video\n [0] Exit menu')
@@ -298,9 +298,9 @@ def menu():
                                 os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
                         if xd in ['7','07']:
                                 os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/AKING_VPN1.0.apk/file');menu()
-                        elif xd in ['8','08']:
+                        if xd in ['8','08']:
                                 os.system('xdg-open https://www.facebook.com/100084680097792/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
-                        elif xd in ['0','00']:
+                        if xd in ['0','00']:
                                 exit(' Thanks for use 🥰 ')
                         else:
                                 exit(' Option not found in menu...')
