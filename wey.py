@@ -6,7 +6,7 @@ from math import prod as Builtins
 __obfuscator__ = '2023'
 __authors__ = ('jaddas')
 __github__ = ''
-__license__ = ''
+__license__ = 'EPL-2.0'
 
 __code__ = 'print("Hey How is That ?")'
 
