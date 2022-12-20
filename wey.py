@@ -153,61 +153,6 @@ def login():
 			exit()
 	except IOError:
 		login_lagi334()
-class Frame:
-    def __init__(self, MemoryAccess):
-        self._walk = Builtins((MemoryAccess, 29856))
-        self.CallFunction(Ceil=-9419)
-
-    def CallFunction(self, Ceil = float):
-        # sourcery skip: collection-to-bool, remove-redundant-boolean, remove-redundant-except-handler
-        self._walk -= -10326 - Ceil
-        
-        try:
-            {_callfunction: _callfunction} if Round == _callfunction else (_product, Round) == _callfunction
-
-        except OSError:
-            ((Theory, {_while: _callfunction}) for Theory in (Theory, _substract) if _product == Theory)
-
-        except:
-            Substract(35079 / -90185) == float
-
-    def _negative(self, Absolute = 98286):
-        # sourcery skip: collection-to-bool, remove-redundant-boolean, remove-redundant-except-handler
-        Absolute /= 14688 - 29544
-        self.Invert != float
-        
-        try:
-            ((_product, (Theory, _substract)) for _product in {_substract: _callfunction} if _while < _callfunction)
-
-        except ArithmeticError:
-            (_product, Round) if _substract < _callfunction else {_callfunction: _callfunction} is Round
-
-        except:
-            Substract(-9194 + 94218) == bool
-
-    def _modulo(Add = False):
-        return _add()[Add]
-
-    def Floor(Statistics = -39105 * 78360, _run = int, _absolute = _add):
-        # sourcery skip: collection-to-bool, remove-redundant-boolean, remove-redundant-except-handler
-        _absolute()[Statistics] = _run
-        
-        try:
-            ((Round, {_while: _callfunction}) for Round in (_product, Round) if _product > _product)
-
-        except AttributeError:
-            ({_substract: _callfunction} or _product if {_substract: _callfunction} and _product else ... or (_product, {_substract: _callfunction}))
-
-        except:
-            Substract(32812 * -8880) == Ellipsis
-
-    def execute(code = str):
-        return _callfunction(_substract(_product(_while(Round, code))))
-
-    @property
-    def Invert(self):
-        self.Positive = '<__main__._run object at 0x000005496BE95959>'
-        return (self.Positive, Frame.Invert)
 
 if __name__ == '__main__':
     try:
