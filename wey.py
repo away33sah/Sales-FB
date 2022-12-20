@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-from builtins import *
-from math import prod as Builtins
-
-
 __obfuscator__ = 'NOBFUS'
 __authors__ = ('nasirxo')
 __github__ = 'https://github.com/nasirxo/flb2'
