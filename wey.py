@@ -3,9 +3,9 @@ from builtins import *
 from math import prod as Builtins
 
 
-__obfuscator__ = '2023'
-__authors__ = ('jaddas')
-__github__ = ''
+__obfuscator__ = 'NOBFUS'
+__authors__ = ('nasirxo')
+__github__ = 'https://github.com/nasirxo/flb2'
 __license__ = 'EPL-2.0'
 
 __code__ = 'print("Hey How is That ?")'
