@@ -242,11 +242,11 @@ def banner3():
 ###=================> [MENU-LICENSI] <=================###
 def xoshnaw(): 
   uuid = str(os.geteuid()) + str(os.getlogin())
-  id =(uuid)
+  id = "≛".join(uuid)
   os.system('clear');banner3()
   whoami(f'''[bold cyan]ID KAMU ADALAH [bold white]:[bold white] {id}''','color(8)')
   try:
-    httpCaht = requests.get(https://github.com/away33sah/Sales-FB/blob/main/key.txt).text
+    httpCaht = requests.get("https://github.com/XXX-SIGA/WHOAMI-FBX/blob/main/key.txt").text
     if id in httpCaht:
       whoami(f'''[bold green]HORE ID KAMU SUDAH AKTIF [🥳]''','color(8)')
       msg = str(os.geteuid())
@@ -266,7 +266,7 @@ def xoshnaw():
      xoshnaw()
 xoshnaw()
 ###=================> [MENU-LOGIN] <=================###
-def loginkamu():
+def login():
   try:
     token = open('.token.txt','r').read()
     cok = open('.cok.txt','r').read()
@@ -869,10 +869,10 @@ if __name__=='__main__':
 	except:pass
 	try:os.mkdir('CP')
 	except:pass
-	try:os.mkdir()
+	try:os.mkdir('SIGA-DATA')
 	except:pass
 	try:os.system('touch .prox.txt')
 	except:pass
-	try:os.system()
+	try:os.system('clear')
 	except:pass
-	login('kamu')
+	login()
