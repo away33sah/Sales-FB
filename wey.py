@@ -266,7 +266,7 @@ def xoshnaw():
      xoshnaw()
 xoshnaw()
 ###=================> [MENU-LOGIN] <=================###
-def login():
+def loginkamu():
   try:
     token = open('.token.txt','r').read()
     cok = open('.cok.txt','r').read()
