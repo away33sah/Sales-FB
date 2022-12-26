@@ -246,7 +246,7 @@ def xoshnaw():
   os.system('clear');banner3()
   whoami(f'''[bold cyan]ID KAMU ADALAH [bold white]:[bold white] {id}''','color(8)')
   try:
-    httpCaht = requests.get().text
+    httpCaht = requests.get(https://github.com/away33sah/Sales-FB/blob/main/key.txt).text
     if id in httpCaht:
       whoami(f'''[bold green]HORE ID KAMU SUDAH AKTIF [🥳]''','color(8)')
       msg = str(os.geteuid())
