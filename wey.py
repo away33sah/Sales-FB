@@ -242,7 +242,7 @@ def banner3():
 ###=================> [MENU-LICENSI] <=================###
 def xoshnaw(): 
   uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "≛".join(uuid)
+  id = "â‰›".join(uuid)
   os.system('clear');banner3()
   whoami(f'''[bold cyan]ID KAMU ADALAH [bold white]:[bold white] {id}''','color(8)')
   try:
