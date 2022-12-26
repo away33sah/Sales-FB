@@ -127,7 +127,7 @@ def uaku():
 		ua=open('.ua2.txt','r').read().splitlines()
 
 ###================> [INDICATION] <================###
-id,id2,loop,ok,cp,akun,oprek,method,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
+id,id2,loop,ok,cp,akun,oprek,method,lisensiku,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
 cokbrut=[]
 pwpluss,pwnya=[],[]
 
