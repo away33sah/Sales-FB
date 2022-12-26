@@ -242,11 +242,11 @@ def banner3():
 ###=================> [MENU-LICENSI] <=================###
 def xoshnaw(): 
   uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "â‰›".join(uuid)
+  id =(uuid)
   os.system('clear');banner3()
   whoami(f'''[bold cyan]ID KAMU ADALAH [bold white]:[bold white] {id}''','color(8)')
   try:
-    httpCaht = requests.get("https://github.com/XXX-SIGA/WHOAMI-FBX/blob/main/key.txt").text
+    httpCaht = requests.get().text
     if id in httpCaht:
       whoami(f'''[bold green]HORE ID KAMU SUDAH AKTIF [🥳]''','color(8)')
       msg = str(os.geteuid())
