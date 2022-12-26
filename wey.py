@@ -4,7 +4,6 @@ import urllib3,rich,base64
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
-from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor as tred
 from rich.console import Group as gp
 from rich.panel import Panel as nel
@@ -14,8 +13,6 @@ from rich.columns import Columns as col
 from rich import print as rprint
 from rich import pretty
 from rich.text import Text as tekz
-from rich.panel import Panel
-from rich.console import Console
 try:
         import rich
 except ImportError:
