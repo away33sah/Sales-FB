@@ -869,10 +869,10 @@ if __name__=='__main__':
 	except:pass
 	try:os.mkdir('CP')
 	except:pass
-	try:os.mkdir('SIGA-DATA')
+	try:os.mkdir()
 	except:pass
 	try:os.system('touch .prox.txt')
 	except:pass
-	try:os.system('clear')
+	try:os.system()
 	except:pass
 	login('kamu')
