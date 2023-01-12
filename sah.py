@@ -1,30 +1,3 @@
-Skip to content
-Product
-Solutions
-Open Source
-Pricing
-Search
-Sign in
-Sign up
-41ZK1378
-/
-Virus
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Virus/Bledz.py /
-@41ZK1378
-41ZK1378 Update Bledz.py
-Latest commit c2f025a 1 hour ago
- History
- 1 contributor
-521 lines (476 sloc)  31.7 KB
-
 #-------------------[ JANGAN DI GANTI² KONTOL ]---------------------#
 import os, time
 try:
@@ -546,18 +519,3 @@ if __name__ == "__main__":
 	os.system('git pull')
 	folder()
 	menu()
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Virus/Bledz.py at main · 41ZK1378/Virus · GitHub
