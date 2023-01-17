@@ -71,7 +71,7 @@ UbahPw = []
 
 # JIKA HASIL TIDAK MAKSIMAL GANTI AJA USER AGENT DI BAWAH INI!
 # VALODATE
-ua = 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36'
+ua = 'Mozilla/5.0 (Linux; U; Android 8.0.0; en-us; Infinix X608 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.141 Mobile Safari/537.36 PHX/8.4'
 
 def Clear_Terminal(platform):
     if 'win' in sys.platform:os.system('cls')
@@ -86,7 +86,7 @@ def Convert(cookies, username):
 def ConvertCookie(cookies):
     with requests.Session() as x:
          x.headers.update({
-            "user-agent":"Mozilla/5.0 (Linux; Android 8.1.0; vivo 1724) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile SFB/15.0.0024.18 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com",
+            "user-agent":"Mozilla/5.0 (Linux; U; Android 8.0.0; en-us; Infinix X608 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.141 Mobile Safari/537.36 PHX/8.4","referer": "https://www.facebook.com/","host": "business.facebook.com",
             "origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0",
             "accept":"text/html,application/xhtml+xml,application/ml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8",
          })
