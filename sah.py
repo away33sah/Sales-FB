@@ -71,7 +71,7 @@ UbahPw = []
 
 # JIKA HASIL TIDAK MAKSIMAL GANTI AJA USER AGENT DI BAWAH INI!
 # VALODATE
-ua = 'Mozilla/5.0 (Linux; Android 8.1.0; vivo 1724) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile SFB/15.0.0024.18 Mobile Safari/537.36'
+ua = 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36'
 
 def Clear_Terminal(platform):
     if 'win' in sys.platform:os.system('cls')
